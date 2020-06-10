@@ -1,0 +1,154 @@
+@import url ("css/shared.css");
+@import url ("css/blog-fonts.css");
+@import url ("css/footer.css");
+
+.post-name{
+     min-width: 40%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+.blog-span{
+    font-weight: 400;
+}
+.home-details{
+    min-width: 40%;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.home-details a{
+    text-decoration: none;
+    color: #565656;
+}
+.home-details a:hover{
+    color: #02B3E4;
+}
+.container{
+    padding: 60px 100px;
+}
+.post--photo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.image>img{
+    width: 100%;
+    height: auto;
+}
+.image>p{
+    color: #565656;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.post-section{
+    display: grid;
+    text-align: left;
+    border: 1px #565656 width: 50% margin: auto margin-top: 5% margin-bottom: 5%;
+}
+.the-post>p,.post-section>p ,.comment>p{
+    color: #565656;
+    letter-spacing: 1px;
+}
+.post-section > p{
+    border-bottom: 1px solid #b7b7b7;
+    padding-bottom: 9px;
+}
+.comment>p{
+    margin: 0;
+}
+.post-section>p{
+    text-transform: uppercase;
+}
+.reply-comment{
+    margin: 30px auto;
+}
+.comment{
+    display: flex;
+    padding: 10px;
+}
+.comment  p>span{
+    text-transform: uppercase;
+    
+}
+.img{
+    border-radius: 5px;
+    margin-right: 1rem;
+    height: 110px;
+}
+.leave-comment{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 80px;
+}
+.leave-comment>h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: #575757;
+    letter-spacing: 1px;
+}
+.input,.form-control {
+    font-family: "roboto";
+    border-radius: 35px;
+    border: 2px solid #eee;
+    font-size: 12px;
+    text-align: center;
+    height: 50px;
+    margin: 5px;
+}
+.form-control{
+    margin-top: 2rem;
+    height: 80px;
+    padding-top: 15px;
+    resize: vertical;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #18e7d3;
+    border-radius:50px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 20px auto;
+}
+@media(max-width:776px){
+    .container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+    .nav-bar{
+        display: block;
+        text-align:center;
+        padding-top: 10px;
+    }
+    .post-name{
+    margin: 0;
+}
+    .home-details{
+        padding: 0;
+        padding-bottom: 10px;
+    }
+    .container{
+    padding:20px;
+}
+    .input,.form-control{
+        box-shadow: 0 0 5px 0 #18e7d3;
+        text-align: left;
+        padding-left: 15px;
+    }
+    .input{
+        margin-bottom: 20px;
+    }
+    .form-control{
+        margin-top: 0;
+    }
+    .leave-comment{
+        padding: 0;
+    }
+    .leave-comment>h3{
+        text-align: left;
+    }
+}

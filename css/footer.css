@@ -1,0 +1,24 @@
+.main-footer{
+    background-color: #000000;
+    text-align: center;
+    padding-top: 20px;
+}
+.main-footer a{
+    text-decoration: none;
+    color: #565656;
+}
+.main-footer a:hover{
+    color: #FBBDBD;
+}
+.main-footer i{
+    padding-left:15px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+.main-footer>p{
+    font-size: 15px;
+    color: #565656;
+    line-height: 35px;
+    margin: 0;
+}
