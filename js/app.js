@@ -19,13 +19,13 @@ function scrollFunction() {
 //dark mode
 var myCheck= document.querySelector('input[type="checkbox"]');
 var myBody=document.querySelector('body');
-var head_2= document.querySelector('h2');
-var head_3= document.querySelector('h3');
+var SecHead= document.querySelector('h2');
+var ThrdHead= document.querySelector('h3');
 myCheck.addEventListener('change', () => {
   if(myCheck.checked) {
     myBody.style.background = '#130101';
-head_2.style.color="white";
-   head_3.style.color='white';
+ SecHead.style.color = "white";
+ ThrdHead.style.color = 'white';
 
    
   } else {
