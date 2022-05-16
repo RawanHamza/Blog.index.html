@@ -1,4 +1,3 @@
-window.document.addEventListener('scroll', onScroll );
 
 //button scrolls to top
 
