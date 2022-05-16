@@ -17,14 +17,15 @@ function scrollFunction() {
   }
 }
 //dark mode
-			var myCheck= document.querySelector('input[type="checkbox"]');
-				var myBody=document.querySelector('body');
-
-			myCheck.addEventListener('change', () => {
+var myCheck= document.querySelector('input[type="checkbox"]');
+var myBody=document.querySelector('body');
+var head2= document.getElementsByTagName('h2');
+var head3= document.getElementsByTagName('h3');
+myCheck.addEventListener('change', () => {
   if(myCheck.checked) {
     myBody.style.background = '#130101';
-document.getElementsByTagName('h3').style.color='white';
-   document.getElementsByTagName('h2').style.color='white';
+head2.style.color='white';
+   head3.style.color='white';
 
    
   } else {
