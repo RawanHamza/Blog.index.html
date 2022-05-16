@@ -43,6 +43,26 @@ justify-content: space-between;
     color: #02B3E4;
     
 }
+
+#btn{
+	position: fixed;
+	z-index: 100;
+  background:none;
+  width:40px;
+  border:none;
+  cursor:pointer;
+  left:90%;
+	top:80%;
+	outline:none;
+}
+#btn i {
+  font-size:40px;
+	color:#565656;
+	outline: none;
+}
+#btn:hover i{
+	    color: #c39478;	
+}
 @media (max-width:776px){
     .blog-title{
         width: 35%;
