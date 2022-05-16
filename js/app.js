@@ -23,8 +23,9 @@ function scrollFunction() {
 			myCheck.addEventListener('change', () => {
   if(myCheck.checked) {
     myBody.style.background = '#130101';
-document.getElementsByTagName('h3').style.color='#ffffff';
-   document.getElementsByTagName('h2').style.color='#ffffff';
+document.getElementsByTagName('h3').style.color='white';
+   document.getElementsByTagName('h2').style.color='white';
+
    
   } else {
     myBody.style.background= 'white';
